@@ -23,7 +23,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ghcr.io/arturich666/fucking-practice-docker:latest/${{ github.event.repository.name }}:latest
+          tags: ghcr.io/arturich666/fucking-practice-docker:latest
 
   # 2. Етап тестування (Test)
   test:
